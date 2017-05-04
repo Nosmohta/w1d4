@@ -5,12 +5,11 @@ function mapStrLen(array, func) {
   let newArray = [];
 
   for (let i = 0; i< array.length; i++) {
-    let length = func(array[i]);
-    newArray.push(length);
+    newArray.push(func(array[i]));
   }
   return newArray;
-}
 
+}
 
 function wordLength(word) {
   return word.length;
