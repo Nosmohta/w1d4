@@ -4,15 +4,12 @@ var countdownGenerator = function (x) {
   return function() {
     if( count > 0) {
       count -= 1
-      console.log("T-minus ", count, "...");
-      return;
+      console.log( "T-minus ", count, "...");
     } else if ( count === 0) {
       count -= 1
-      console.log("Blast Off!!!");
-      return;
+      console.log( "Blast Off!!!");
     } else {
-      console.log("Rockets aleady gone, bub!");
-      return;
+      console.log( "Rockets aleady gone, bub!");
     }
   }
 
@@ -30,4 +27,3 @@ countdown(); // T-minus 2...
 countdown(); // T-minus 1...
 countdown(); // Blast Off!
 countdown(); // Rockets already gone, bub!
-countdown();
