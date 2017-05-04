@@ -20,7 +20,6 @@ function findWaldo(arr) {
   })
 }
 
-
 let people = ["Alice", "Bob", "Waldo", "Winston", "sdkjfg", "Waldo"]
 
 findWaldo(people);
